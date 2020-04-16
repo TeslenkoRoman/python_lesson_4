@@ -54,5 +54,3 @@ only_date.sort(key=lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S'), reverse=
 
 print("Дата и время самого позднего лога: ", only_date[0])
 print("Дата самого позднего лога: ", only_date[0].split(' ')[0])
-
-# все
